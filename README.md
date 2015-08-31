@@ -7,6 +7,11 @@ It is still a work in progress, and is not supported by Print.io.
 
 See some examples at: http://fromkeith.github.io/pio-preview/
 
+## Installation
+```
+    npm install pio-preview
+```
+
 ## Use
 Include this angular module:
 ```
