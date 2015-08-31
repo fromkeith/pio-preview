@@ -39,13 +39,17 @@
 
 <p>
   <h4>Mouse pad</h4>
+  <h5>&lt;pp-mousepad pp-src="test_image.jpg"&gt;&lt;/pp-mousepad&gt;</h5>
   <pp-mousepad pp-src="test_image.jpg"></pp-mousepad>
   <h4>Frame</h4>
+  <h5>&lt;pp-framed pp-src="test_image.jpg"&gt;&lt;/pp-framed&gt;</h5>
   <pp-framed pp-src="test_image.jpg"></pp-framed>
   <h4>Mug</h4>
+  <h5>&lt;pp-mug pp-src="test_image.jpg"&gt;&lt;/pp-mug&gt;</h5>
   <pp-mug pp-src="test_image.jpg"></pp-mug>
   <div ng-repeat="t in ['iPhone4S', 'iPhone5C', 'iPhone5', 'GalaxyS2', 'GalaxyS3', 'GalaxyS4', 'GalaxyNote', 'GalaxyNote2', 'GalaxyNote3', 'HTCOne']">
       <h4>{{t}}</h4>
+      <h5>&lt;pp-phone pp-src="test_image.jpg" pp-type="{{t}}"&gt;&lt;/pp-phone&gt;</h5>
       <pp-phone pp-src="test_image.jpg" pp-type="{{t}}"></pp-phone>
   </div>
 </p>
