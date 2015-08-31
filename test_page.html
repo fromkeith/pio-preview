@@ -3,11 +3,18 @@
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
         <script src="pio-preview.js"></script>
         <link href="dist/pio-preview.min.css" type="text/css" rel="stylesheet" >
+        <script>
+            angular.module('pio-preview').controller('ExampleController', function ($scope) {
+                $scope.mousepadClicked = function () {
+                    console.log("mousepad clicked");
+                };
+            });
+        </script>
     </head>
-    <body ng-app="pio-preview">
+    <body ng-app="pio-preview" ng-controller="ExampleController">
 
         <h4>Mouse pad</h4>
-        <pp-mousepad pp-src="test_image.jpg"></pp-mousepad>
+        <pp-mousepad pp-src="test_image.jpg" ng-click="mousepadClicked()"></pp-mousepad>
         <h4>Frame</h4>
         <pp-framed pp-src="test_image.jpg"></pp-framed>
         <h4>Mug</h4>

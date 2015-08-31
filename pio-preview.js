@@ -25,6 +25,7 @@
                     ppSrc: '@'
                 },
                 restrict: 'E',
+                replace: true,
                 template: '<div class="pp-mousepad"><div class="pp-img-wrapper"><div class="pp-img" style="background-image: url({{ppSrc}})"></div></div><img src="https://az412349.vo.msecnd.net/product-mousepads/mousepad-new-backv1.png" class="pp-bkg"><img src="https://az412349.vo.msecnd.net/product-mousepads/Mousepad-new-overlayv1.png" class="pp-border"></div>'
             };
         })
@@ -34,6 +35,7 @@
                     ppSrc: '@'
                 },
                 restrict: 'E',
+                replace: true,
                 template: '<div class="pp-framed"><div class="pp-img-wrapper"><div class="pp-img" style="background-image:url({{ppSrc}});"></div></div><img src="https://az412349.vo.msecnd.net/widget-assets/FFFFFF-0.png" class="pp-bkg"><img src="https://az412349.vo.msecnd.net/product-framedprints/12x18OverlayBlack.png" class="pp-border"></div>'
             };
         }).directive('ppMug', function () {
@@ -42,6 +44,7 @@
                     ppSrc: '@'
                 },
                 restrict: 'E',
+                replace: true,
                 template: '<div class="pp-mug"><div class="pp-img-wrapper"><div class="pp-img" style="background-image:url({{ppSrc}})"></div></div><img src="https://az412349.vo.msecnd.net/product-mugs/Mug11oz-Backgroundv4.png" class="pp-bkg"><img src="https://az412349.vo.msecnd.net/product-mugs/Mug11oz-Overlayv3.png" class="pp-border"></div>'
             };
         }).directive('ppPhone', function () {
@@ -53,6 +56,7 @@
                     ppType: '@'
                 },
                 restrict: 'E',
+                replace: true,
                 template: '<div class="pp-phone"><div class="pp-img-wrapper"><div class="pp-img" style="background-image: url({{ppSrc}});"></div></div><img src="https://az412349.vo.msecnd.net/product-phonecases/{{ppType}}-back.png" class="pp-bkg"><img src="https://az412349.vo.msecnd.net/product-phonecases/{{ppType}}-overlay.png" class="pp-border"></div>',
                 link: function ($scope, element, attrs) {
                     if ($scope.ppType === undefined || $scope.ppType === '') {
