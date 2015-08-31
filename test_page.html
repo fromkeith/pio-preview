@@ -1,0 +1,18 @@
+<html>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
+        <script src="print-preview.js"></script>
+        <link href="css/print-preview.css" type="text/css" rel="stylesheet" >
+    </head>
+    <body ng-app="printio-preview">
+
+        <pp-mousepad pp-src="test_image.jpg"></pp-mousepad>
+        <pp-framed pp-src="test_image.jpg"></pp-framed>
+        <pp-mug pp-src="test_image.jpg"></pp-mug>
+        <div ng-repeat="t in ['iPhone4S', 'iPhone5C', 'iPhone5', 'GalaxyS2', 'GalaxyS3', 'GalaxyS4', 'GalaxyNote', 'GalaxyNote2', 'GalaxyNote3', 'HTCOne']">
+            <h4>{{t}}</h4>
+            <pp-phone pp-src="test_image.jpg" pp-type="{{t}}"></pp-phone>
+        </div>
+
+    </body>
+</html>
