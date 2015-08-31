@@ -1,13 +1,16 @@
 <html>
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.4/angular.min.js"></script>
-        <script src="print-preview.js"></script>
-        <link href="css/print-preview.css" type="text/css" rel="stylesheet" >
+        <script src="pio-preview.js"></script>
+        <link href="dist/pio-preview.min.css" type="text/css" rel="stylesheet" >
     </head>
-    <body ng-app="printio-preview">
+    <body ng-app="pio-preview">
 
+        <h4>Mouse pad</h4>
         <pp-mousepad pp-src="test_image.jpg"></pp-mousepad>
+        <h4>Frame</h4>
         <pp-framed pp-src="test_image.jpg"></pp-framed>
+        <h4>Mug</h4>
         <pp-mug pp-src="test_image.jpg"></pp-mug>
         <div ng-repeat="t in ['iPhone4S', 'iPhone5C', 'iPhone5', 'GalaxyS2', 'GalaxyS3', 'GalaxyS4', 'GalaxyNote', 'GalaxyNote2', 'GalaxyNote3', 'HTCOne']">
             <h4>{{t}}</h4>

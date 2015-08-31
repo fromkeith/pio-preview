@@ -1,8 +1,8 @@
 {
   "name": "printio-preview",
   "version": "1.0.0",
-  "description": "simple print.io preview widget",
-  "main": "print-preview.js",
+  "description": "simple print.io product previews",
+  "main": "pio-preview.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -10,6 +10,8 @@
   "license": "MIT",
   "devDependencies": {
     "gulp": "^3.9.0",
-    "gulp-sass": "^2.0.4"
+    "gulp-sass": "^2.0.4",
+    "gulp-uglify": "^1.4.0",
+    "gulp-rename": "^1.2.2"
   }
 }
