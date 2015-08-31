@@ -1,0 +1,152 @@
+.pp-mousepad {
+  top: 0px;
+  left: 0px;
+  transform: rotate(0deg);
+  width: 460px;
+  height: 387.368421052632px;
+  position: relative;
+  verflow: hidden; }
+  .pp-mousepad .pp-mousepad-img-wrapper {
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+    width: 460px;
+    height: 387.368421052632px;
+    z-index: 1;
+    position: absolute;
+    overflow: hidden; }
+    .pp-mousepad .pp-mousepad-img-wrapper .pp-mousepad-img {
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%; }
+  .pp-mousepad .pp-mousepad-bkg {
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+    width: 460px;
+    height: 387.368421052632px;
+    position: absolute; }
+  .pp-mousepad .pp-mousepad-border {
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+    width: 460px;
+    height: 387.368421052632px;
+    z-index: 5;
+    position: absolute; }
+
+.pp-framed {
+  top: 0x;
+  left: 0px;
+  transform: rotate(0deg);
+  width: 460px;
+  height: 349.6px;
+  position: relative;
+  overflow: hidden; }
+  .pp-framed .pp-framed-img-wrapper {
+    top: 64.4px;
+    left: 64.4px;
+    transform: rotate(0deg);
+    width: 331.2px;
+    height: 220.8px;
+    z-index: 1;
+    position: absolute;
+    overflow: hidden; }
+    .pp-framed .pp-framed-img-wrapper .pp-framed-img {
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%; }
+  .pp-framed .pp-framed-bkg {
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+    width: 460px;
+    height: 349.6px;
+    position: absolute;
+    background-color: white; }
+  .pp-framed .pp-framed-border {
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+    width: 460px;
+    height: 349.6px;
+    z-index: 5;
+    position: absolute; }
+
+.pp-mug {
+  top: 0px;
+  left: 0px;
+  transform: rotate(0deg);
+  width: 460px;
+  height: 180.714285714286px;
+  position: relative;
+  overflow: hidden; }
+  .pp-mug .pp-mug-img-wrapper {
+    top: 9.59428571428571px;
+    left: 67.8171428571429px;
+    transform: rotate(0deg);
+    width: 325.285714285714px;
+    height: 151.8px;
+    z-index: 1;
+    position: absolute;
+    overflow: hidden; }
+    .pp-mug .pp-mug-img-wrapper .pp-mug-img {
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%; }
+  .pp-mug .pp-mug-bkg {
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+    width: 460px;
+    height: 180.714285714286px;
+    position: absolute; }
+  .pp-mug .pp-mug-border {
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+    width: 460px;
+    height: 180.714285714286px;
+    z-index: 5;
+    position: absolute; }
+
+.pp-phone {
+  top: 0px;
+  left: 0px;
+  transform: rotate(0deg);
+  width: 284.160181582361px;
+  height: 425px;
+  position: relative;
+  overflow: hidden; }
+  .pp-phone .pp-phone-img-wrapper {
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+    width: 284.160181582361px;
+    height: 425px;
+    z-index: 1;
+    position: absolute;
+    overflow: hidden; }
+    .pp-phone .pp-phone-img-wrapper .pp-phone-img {
+      background-position: center;
+      background-size: cover;
+      width: 100%;
+      height: 100%; }
+  .pp-phone .pp-phone-bkg {
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+    width: 284.160181582361px;
+    height: 425px;
+    position: absolute; }
+  .pp-phone .pp-phone-border {
+    top: 0px;
+    left: 0px;
+    transform: rotate(0deg);
+    width: 284.160181582361px;
+    height: 425px;
+    z-index: 5;
+    position: absolute; }
