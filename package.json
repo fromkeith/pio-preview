@@ -1,6 +1,6 @@
 {
   "name": "pio-preview",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "simple print.io product previews",
   "main": "pio-preview.js",
   "scripts": {
