@@ -16,6 +16,7 @@ See some examples at: http://fromkeith.github.io/pio-preview/
 Include this angular module:
 ```
     require('pio-preview');
+    angular.module('myApp', ['pio-preview']);
 ```
 Then add the desired directive to your page. Use 'pp-src' to specify the source image.
 ```
