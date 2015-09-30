@@ -3,7 +3,7 @@ This project aims to make previewing Print.io products much easier. The hope is 
 
 This is an angularjs project.
 
-It is still a work in progress, and is not supported by Print.io.
+It is still a work in progress, and is not supported by Print.io. This is meant to be used injunction with  https://github.com/printdotio/pio.js
 
 See some examples at: http://fromkeith.github.io/pio-preview/
 
