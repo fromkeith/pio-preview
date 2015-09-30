@@ -14,15 +14,14 @@
     <body ng-app="pio-preview" ng-controller="ExampleController">
 
         <h4>Mouse pad</h4>
-        <pp-mousepad pp-src="test_image.jpg" ng-click="mousepadClicked()"></pp-mousepad>
+        <pp-mousepad pp-src="'test_image.jpg'" ng-click="mousepadClicked()"></pp-mousepad>
         <h4>Frame</h4>
-        <pp-framed pp-src="test_image.jpg"></pp-framed>
+        <pp-framed pp-src="'test_image.jpg'"></pp-framed>
         <h4>Mug</h4>
-        <pp-mug pp-src="test_image.jpg"></pp-mug>
+        <pp-mug pp-src="'test_image.jpg'"></pp-mug>
         <div ng-repeat="t in ['iPhone4S', 'iPhone5C', 'iPhone5', 'GalaxyS2', 'GalaxyS3', 'GalaxyS4', 'GalaxyNote', 'GalaxyNote2', 'GalaxyNote3', 'HTCOne']">
             <h4>{{t}}</h4>
-            <pp-phone pp-src="test_image.jpg" pp-type="{{t}}"></pp-phone>
+            <pp-phone pp-src="'test_image.jpg'" pp-type="t"></pp-phone>
         </div>
-
     </body>
 </html>
